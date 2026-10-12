@@ -1,0 +1,462 @@
+[
+  {
+    "Name": "Manticore Heavy Tank",
+    "Model": "",
+    "mul id:": "2021",
+    "year": "2575",
+    "role": "Brawler",
+    "tonnage": "60.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "4",
+    "engine_type": "0",
+    "armor": "42\n33\n33\n26\n42",
+    "file": "Manticore Heavy Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo LRM-10",
+        "IS Ammo SRM-6"
+      ],
+      "Front": [
+        "Medium Laser"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "LRM 10",
+        "SRM 6",
+        "PPC"
+      ]
+    }
+  },
+  {
+    "Name": "Bulldog Medium Tank",
+    "Model": "",
+    "mul id:": "441",
+    "year": "2673",
+    "role": "Brawler",
+    "tonnage": "60.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "4",
+    "engine_type": "1",
+    "armor": "24\n20\n20\n20\n20",
+    "file": "Bulldog Medium Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo SRM-4",
+        "IS Ammo SRM-4",
+        "IS Machine Gun Ammo - Half"
+      ],
+      "Front": [
+        "Machine Gun"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "SRM 4",
+        "SRM 4",
+        "Large Laser"
+      ]
+    }
+  },
+  {
+    "Name": "J. Edgar Light Hover Tank",
+    "Model": "",
+    "mul id:": "1641",
+    "year": "2722",
+    "role": "Scout",
+    "tonnage": "25.0",
+    "motion_type": "Hover",
+    "cruiseMP": "11",
+    "engine_type": "0",
+    "armor": "30\n19\n19\n12\n24",
+    "file": "J. Edgar Light Hover Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo SRM-2"
+      ],
+      "Front": [],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "Medium Laser",
+        "SRM 2",
+        "SRM 2"
+      ]
+    }
+  },
+  {
+    "Name": "Hetzer Wheeled Assault Gun",
+    "Model": "",
+    "mul id:": "1513",
+    "year": "2887",
+    "role": "Ambusher",
+    "tonnage": "40.0",
+    "motion_type": "Wheeled",
+    "cruiseMP": "4",
+    "engine_type": "1",
+    "armor": "30\n22\n22\n22",
+    "file": "Hetzer Wheeled Assault Gun.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo AC/20",
+        "IS Ammo AC/20",
+        "IS Ammo AC/20",
+        "IS Ammo AC/20"
+      ],
+      "Front": [
+        "Autocannon/20"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": []
+    }
+  },
+  {
+    "Name": "Demolisher Heavy Tank",
+    "Model": "(Mk. II)",
+    "mul id:": "864",
+    "year": "2823",
+    "role": "Juggernaut",
+    "tonnage": "80.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "3",
+    "engine_type": "1",
+    "armor": "40\n30\n30\n20\n40",
+    "file": "Demolisher Heavy Tank (Mk. II).blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo AC/20",
+        "IS Ammo AC/20",
+        "IS Ammo AC/20",
+        "IS Ammo AC/20"
+      ],
+      "Front": [],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "Autocannon/20",
+        "Autocannon/20"
+      ]
+    }
+  },
+  {
+    "Name": "Savannah Master Hovercraft",
+    "Model": "",
+    "mul id:": "2807",
+    "year": "3025",
+    "role": "Scout",
+    "tonnage": "5.0",
+    "motion_type": "Hover",
+    "cruiseMP": "13",
+    "engine_type": "0",
+    "armor": "10\n6\n6\n2",
+    "file": "Savannah Master Hovercraft.blk",
+    "equipment": {
+      "Body": [],
+      "Front": [
+        "Medium Laser"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": []
+    }
+  },
+  {
+    "Name": "LRM Carrier",
+    "Model": "",
+    "mul id:": "1952",
+    "year": "2470",
+    "role": "Missile Boat",
+    "tonnage": "60.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "3",
+    "engine_type": "1",
+    "armor": "12\n12\n12\n12",
+    "file": "LRM Carrier.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo LRM-20",
+        "IS Ammo LRM-20",
+        "IS Ammo LRM-20",
+        "IS Ammo LRM-20"
+      ],
+      "Front": [
+        "LRM 20",
+        "LRM 20",
+        "LRM 20"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": []
+    }
+  },
+  {
+    "Name": "Striker Light Tank",
+    "Model": "",
+    "mul id:": "3105",
+    "year": "3006",
+    "role": "Missile Boat",
+    "tonnage": "35.0",
+    "motion_type": "Wheeled",
+    "cruiseMP": "5",
+    "engine_type": "1",
+    "armor": "24\n20\n20\n18\n22",
+    "file": "Striker Light Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo SRM-6",
+        "IS Ammo SRM-6",
+        "IS Ammo LRM-10"
+      ],
+      "Front": [],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "LRM 10",
+        "SRM 6"
+      ]
+    }
+  },
+  {
+    "Name": "AC/2 Carrier",
+    "Model": "",
+    "mul id:": "5",
+    "year": "2520",
+    "role": "Sniper",
+    "tonnage": "60.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "3",
+    "engine_type": "1",
+    "armor": "12\n12\n12\n12",
+    "file": "AC2 Carrier.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo AC/2",
+        "IS Ammo AC/2",
+        "IS Ammo AC/2",
+        "IS Ammo AC/2"
+      ],
+      "Front": [
+        "Autocannon/2",
+        "Autocannon/2",
+        "Autocannon/2",
+        "Autocannon/2",
+        "Autocannon/2"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": []
+    }
+  },
+  {
+    "Name": "Pegasus Scout Hover Tank",
+    "Model": "",
+    "mul id:": "2461",
+    "year": "2791",
+    "role": "Striker",
+    "tonnage": "35.0",
+    "motion_type": "Hover",
+    "cruiseMP": "8",
+    "engine_type": "1",
+    "armor": "26\n19\n19\n19\n21",
+    "file": "Pegasus Scout Hover Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo SRM-6"
+      ],
+      "Front": [
+        "Medium Laser"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "SRM 6",
+        "SRM 6"
+      ]
+    }
+  },
+  {
+    "Name": "Condor Heavy Hover Tank",
+    "Model": "",
+    "mul id:": "683",
+    "year": "2564",
+    "role": "Striker",
+    "tonnage": "50.0",
+    "motion_type": "Hover",
+    "cruiseMP": "8",
+    "engine_type": "1",
+    "armor": "30\n15\n15\n14\n22",
+    "file": "Condor Heavy Hover Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo AC/5",
+        "IS Machine Gun Ammo - Half"
+      ],
+      "Front": [
+        "Machine Gun"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "Autocannon/5",
+        "Medium Laser",
+        "Medium Laser"
+      ]
+    }
+  },
+  {
+    "Name": "Vedette Medium Tank",
+    "Model": "",
+    "mul id:": "3395",
+    "year": "2943",
+    "role": "Brawler",
+    "tonnage": "50.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "5",
+    "engine_type": "1",
+    "armor": "20\n18\n18\n20\n20",
+    "file": "Vedette Medium Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo MG - Full",
+        "IS Ammo AC/5"
+      ],
+      "Front": [
+        "Machine Gun"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "Autocannon/5"
+      ]
+    }
+  },
+  {
+    "Name": "Saladin Assault Hover Tank",
+    "Model": "",
+    "mul id:": "2780",
+    "year": "2942",
+    "role": "Striker",
+    "tonnage": "35.0",
+    "motion_type": "Hover",
+    "cruiseMP": "8",
+    "engine_type": "1",
+    "armor": "17\n5\n5\n5",
+    "file": "Saladin Assault Hover Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo AC/20",
+        "IS Ammo AC/20",
+        "IS Ammo AC/20"
+      ],
+      "Front": [
+        "Autocannon/20"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": []
+    }
+  },
+  {
+    "Name": "Scorpion Light Tank",
+    "Model": "",
+    "mul id:": "2847",
+    "year": "2807",
+    "role": "Brawler",
+    "tonnage": "25.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "4",
+    "engine_type": "1",
+    "armor": "16\n11\n11\n10\n16",
+    "file": "Scorpion Light Tank.blk",
+    "equipment": {
+      "Body": [
+        "IS Machine Gun Ammo - Half",
+        "IS Ammo AC/5"
+      ],
+      "Front": [],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "Machine Gun",
+        "Autocannon/5"
+      ]
+    }
+  },
+  {
+    "Name": "Schrek PPC Carrier",
+    "Model": "",
+    "mul id:": "2827",
+    "year": "2813",
+    "role": "Sniper",
+    "tonnage": "80.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "3",
+    "engine_type": "0",
+    "armor": "24\n20\n20\n20\n28",
+    "file": "Schrek PPC Carrier.blk",
+    "equipment": {
+      "Body": [],
+      "Front": [],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": [
+        "PPC",
+        "PPC",
+        "PPC"
+      ]
+    }
+  },
+  {
+    "Name": "SRM Carrier",
+    "Model": "",
+    "mul id:": "3030",
+    "year": "2470",
+    "role": "Ambusher",
+    "tonnage": "60.0",
+    "motion_type": "Tracked",
+    "cruiseMP": "3",
+    "engine_type": "1",
+    "armor": "12\n12\n12\n12",
+    "file": "SRM Carrier.blk",
+    "equipment": {
+      "Body": [
+        "IS Ammo SRM-6",
+        "IS Ammo SRM-6",
+        "IS Ammo SRM-6",
+        "IS Ammo SRM-6"
+      ],
+      "Front": [
+        "SRM 6",
+        "SRM 6",
+        "SRM 6",
+        "SRM 6",
+        "SRM 6",
+        "SRM 6",
+        "SRM 6",
+        "SRM 6",
+        "SRM 6",
+        "SRM 6"
+      ],
+      "Left": [],
+      "Right": [],
+      "Rear": [],
+      "Turret": []
+    }
+  }
+]

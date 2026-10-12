@@ -1,0 +1,1346 @@
+[
+  {
+    "name": "AC/2 Carrier",
+    "variant": "Standard",
+    "file": "IRONBOUND-AC2-Carrier-Standard.svg",
+    "mass": 60,
+    "year": 2520,
+    "movement": "Tracked",
+    "ground": 3,
+    "sprint": 5,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Fire Support",
+    "armor": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "structure": 2,
+    "ev": 403,
+    "cv": 1086400,
+    "upkeep": 600,
+    "groups": [
+      {
+        "weapon": "Autocannon/2",
+        "count": 5,
+        "label": "5\u00d7 AC/2",
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "Autocannon/2",
+        "tics": [
+          1
+        ],
+        "capacity": 45
+      },
+      {
+        "weapon": "Autocannon/2",
+        "tics": [
+          1
+        ],
+        "capacity": 45
+      },
+      {
+        "weapon": "Autocannon/2",
+        "tics": [
+          1
+        ],
+        "capacity": 45
+      },
+      {
+        "weapon": "Autocannon/2",
+        "tics": [
+          1
+        ],
+        "capacity": 45
+      }
+    ],
+    "mul_id": "5"
+  },
+  {
+    "name": "Bulldog Medium Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-Bulldog-Standard.svg",
+    "mass": 60,
+    "year": 2673,
+    "movement": "Tracked",
+    "ground": 4,
+    "sprint": 6,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Brawler",
+    "armor": [
+      6,
+      5,
+      5,
+      5,
+      5
+    ],
+    "structure": 2,
+    "ev": 605,
+    "cv": 1272800,
+    "upkeep": 600,
+    "groups": [
+      {
+        "weapon": "Machine Gun",
+        "count": 1,
+        "label": "Machine Gun [AI]",
+        "damage": "1",
+        "base": 1,
+        "max": 1,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "SRM 4",
+        "count": 2,
+        "label": "2\u00d7 SRM-4",
+        "damage": "2+M2 (6)",
+        "base": 2,
+        "max": 6,
+        "mdice": 2,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "Large Laser",
+        "count": 1,
+        "label": "Large Laser",
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "SRM 4",
+        "tics": [
+          2
+        ],
+        "capacity": 25
+      },
+      {
+        "weapon": "SRM 4",
+        "tics": [
+          2
+        ],
+        "capacity": 25
+      },
+      {
+        "weapon": "Machine Gun",
+        "tics": [
+          1
+        ],
+        "capacity": 100
+      }
+    ],
+    "mul_id": "441"
+  },
+  {
+    "name": "Condor Heavy Hover Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-Condor-Standard.svg",
+    "mass": 50,
+    "year": 2564,
+    "movement": "Hover",
+    "ground": 8,
+    "sprint": 12,
+    "tmm": 3,
+    "initiative": 3,
+    "role": "Skirmisher",
+    "armor": [
+      8,
+      4,
+      4,
+      4,
+      6
+    ],
+    "structure": 2,
+    "ev": 653,
+    "cv": 1289000,
+    "upkeep": 500,
+    "groups": [
+      {
+        "weapon": "Machine Gun",
+        "count": 1,
+        "label": "Machine Gun [AI]",
+        "damage": "1",
+        "base": 1,
+        "max": 1,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "Autocannon/5",
+        "count": 1,
+        "label": "AC/5",
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          2,
+          0,
+          2,
+          4,
+          null
+        ]
+      },
+      {
+        "weapon": "Medium Laser",
+        "count": 2,
+        "label": "2\u00d7 Medium Laser",
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "Autocannon/5",
+        "tics": [
+          2
+        ],
+        "capacity": 20
+      },
+      {
+        "weapon": "Machine Gun",
+        "tics": [
+          1
+        ],
+        "capacity": 100
+      }
+    ],
+    "mul_id": "683"
+  },
+  {
+    "name": "Demolisher Heavy Tank",
+    "variant": "Mk. II",
+    "file": "IRONBOUND-Demolisher-Mk-II.svg",
+    "mass": 80,
+    "year": 2823,
+    "movement": "Tracked",
+    "ground": 3,
+    "sprint": 5,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Brawler",
+    "armor": [
+      10,
+      8,
+      8,
+      5,
+      10
+    ],
+    "structure": 3,
+    "ev": 981,
+    "cv": 2079000,
+    "upkeep": 800,
+    "groups": [
+      {
+        "weapon": "Autocannon/20",
+        "count": 1,
+        "label": "AC/20",
+        "damage": "7",
+        "base": 7,
+        "max": 7,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "Autocannon/20",
+        "count": 1,
+        "label": "AC/20",
+        "damage": "7",
+        "base": 7,
+        "max": 7,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1,
+          2
+        ],
+        "capacity": 5
+      },
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1,
+          2
+        ],
+        "capacity": 5
+      },
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1,
+          2
+        ],
+        "capacity": 5
+      },
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1,
+          2
+        ],
+        "capacity": 5
+      }
+    ],
+    "mul_id": "864"
+  },
+  {
+    "name": "Hetzer Wheeled Assault Gun",
+    "variant": "Standard",
+    "file": "IRONBOUND-Hetzer-Standard.svg",
+    "mass": 40,
+    "year": 2887,
+    "movement": "Wheeled",
+    "ground": 4,
+    "sprint": 6,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Brawler",
+    "armor": [
+      8,
+      6,
+      6,
+      6
+    ],
+    "structure": 1,
+    "ev": 574,
+    "cv": 664000,
+    "upkeep": 400,
+    "groups": [
+      {
+        "weapon": "Autocannon/20",
+        "count": 1,
+        "label": "AC/20",
+        "damage": "7",
+        "base": 7,
+        "max": 7,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1
+        ],
+        "capacity": 5
+      },
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1
+        ],
+        "capacity": 5
+      },
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1
+        ],
+        "capacity": 5
+      },
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1
+        ],
+        "capacity": 5
+      }
+    ],
+    "mul_id": "1513"
+  },
+  {
+    "name": "J. Edgar Light Hover Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-J-Edgar-Standard.svg",
+    "mass": 25,
+    "year": 2722,
+    "movement": "Hover",
+    "ground": 11,
+    "sprint": 17,
+    "tmm": 4,
+    "initiative": 4,
+    "role": "Scout",
+    "armor": [
+      8,
+      5,
+      5,
+      3,
+      6
+    ],
+    "structure": 1,
+    "ev": 544,
+    "cv": 729250,
+    "upkeep": 250,
+    "groups": [
+      {
+        "weapon": "Medium Laser",
+        "count": 1,
+        "label": "Medium Laser",
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "SRM 2",
+        "count": 2,
+        "label": "2\u00d7 SRM-2",
+        "damage": "2+M2 (3)",
+        "base": 2,
+        "max": 3,
+        "mdice": 2,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "SRM 2",
+        "tics": [
+          2
+        ],
+        "capacity": 50
+      }
+    ],
+    "mul_id": "1641"
+  },
+  {
+    "name": "LRM Carrier",
+    "variant": "Standard",
+    "file": "IRONBOUND-LRM-Carrier-Standard.svg",
+    "mass": 60,
+    "year": 2470,
+    "movement": "Tracked",
+    "ground": 3,
+    "sprint": 5,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Fire Support",
+    "armor": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "structure": 2,
+    "ev": 833,
+    "cv": 1872000,
+    "upkeep": 600,
+    "groups": [
+      {
+        "weapon": "LRM 20",
+        "count": 2,
+        "label": "2\u00d7 LRM-20 [IF]",
+        "damage": "4+M4 (14)",
+        "base": 4,
+        "max": 14,
+        "mdice": 4,
+        "location": "Front",
+        "ranges": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "weapon": "LRM 20",
+        "count": 1,
+        "label": "LRM-20 [IF]",
+        "damage": "2+M2 (7)",
+        "base": 2,
+        "max": 7,
+        "mdice": 2,
+        "location": "Front",
+        "ranges": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1,
+          2
+        ],
+        "capacity": 6
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1,
+          2
+        ],
+        "capacity": 6
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1,
+          2
+        ],
+        "capacity": 6
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1,
+          2
+        ],
+        "capacity": 6
+      }
+    ],
+    "mul_id": "1952"
+  },
+  {
+    "name": "Manticore Heavy Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-Manticore-Standard.svg",
+    "mass": 60,
+    "year": 2575,
+    "movement": "Tracked",
+    "ground": 4,
+    "sprint": 6,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Brawler",
+    "armor": [
+      11,
+      8,
+      8,
+      7,
+      11
+    ],
+    "structure": 2,
+    "ev": 993,
+    "cv": 2640800,
+    "upkeep": 600,
+    "groups": [
+      {
+        "weapon": "Medium Laser",
+        "count": 1,
+        "label": "Medium Laser",
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "LRM 10",
+        "count": 1,
+        "label": "LRM-10 [IF]",
+        "damage": "1+M1 (4)",
+        "base": 1,
+        "max": 4,
+        "mdice": 1,
+        "location": "Turret",
+        "ranges": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "weapon": "SRM 6",
+        "count": 1,
+        "label": "SRM-6",
+        "damage": "1+M2 (4)",
+        "base": 1,
+        "max": 4,
+        "mdice": 2,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "PPC",
+        "count": 1,
+        "label": "PPC",
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          2,
+          0,
+          2,
+          4,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "LRM 10",
+        "tics": [
+          2
+        ],
+        "capacity": 12
+      },
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          3
+        ],
+        "capacity": 15
+      }
+    ],
+    "mul_id": "2021"
+  },
+  {
+    "name": "Pegasus Scout Hover Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-Pegasus-Standard.svg",
+    "mass": 35,
+    "year": 2791,
+    "movement": "Hover",
+    "ground": 8,
+    "sprint": 12,
+    "tmm": 3,
+    "initiative": 3,
+    "role": "Skirmisher",
+    "armor": [
+      7,
+      5,
+      5,
+      5,
+      5
+    ],
+    "structure": 1,
+    "ev": 640,
+    "cv": 865725,
+    "upkeep": 350,
+    "groups": [
+      {
+        "weapon": "Medium Laser",
+        "count": 1,
+        "label": "Medium Laser",
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "SRM 6",
+        "count": 2,
+        "label": "2\u00d7 SRM-6",
+        "damage": "2+M4 (8)",
+        "base": 2,
+        "max": 8,
+        "mdice": 4,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          2
+        ],
+        "capacity": 15
+      }
+    ],
+    "mul_id": "2461"
+  },
+  {
+    "name": "Saladin Assault Hover Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-Saladin-Standard.svg",
+    "mass": 35,
+    "year": 2942,
+    "movement": "Hover",
+    "ground": 8,
+    "sprint": 12,
+    "tmm": 3,
+    "initiative": 3,
+    "role": "Skirmisher",
+    "armor": [
+      4,
+      1,
+      1,
+      1
+    ],
+    "structure": 1,
+    "ev": 596,
+    "cv": 911625,
+    "upkeep": 350,
+    "groups": [
+      {
+        "weapon": "Autocannon/20",
+        "count": 1,
+        "label": "AC/20",
+        "damage": "7",
+        "base": 7,
+        "max": 7,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1
+        ],
+        "capacity": 5
+      },
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1
+        ],
+        "capacity": 5
+      },
+      {
+        "weapon": "Autocannon/20",
+        "tics": [
+          1
+        ],
+        "capacity": 5
+      }
+    ],
+    "mul_id": "2780"
+  },
+  {
+    "name": "Savannah Master Hovercraft",
+    "variant": "Standard",
+    "file": "IRONBOUND-Savannah-Master-Standard.svg",
+    "mass": 5,
+    "year": 3025,
+    "movement": "Hover",
+    "ground": 13,
+    "sprint": 20,
+    "tmm": 4,
+    "initiative": 4,
+    "role": "Scout",
+    "armor": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "structure": 1,
+    "ev": 215,
+    "cv": 91667,
+    "upkeep": 50,
+    "groups": [
+      {
+        "weapon": "Medium Laser",
+        "count": 1,
+        "label": "Medium Laser",
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [],
+    "mul_id": "2807"
+  },
+  {
+    "name": "Schrek PPC Carrier",
+    "variant": "Standard",
+    "file": "IRONBOUND-Schrek-PPC-Carrier-Standard.svg",
+    "mass": 80,
+    "year": 2813,
+    "movement": "Tracked",
+    "ground": 3,
+    "sprint": 5,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Fire Support",
+    "armor": [
+      6,
+      5,
+      5,
+      5,
+      7
+    ],
+    "structure": 3,
+    "ev": 935,
+    "cv": 3829500,
+    "upkeep": 800,
+    "groups": [
+      {
+        "weapon": "PPC",
+        "count": 1,
+        "label": "PPC",
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          2,
+          0,
+          2,
+          4,
+          null
+        ]
+      },
+      {
+        "weapon": "PPC",
+        "count": 1,
+        "label": "PPC",
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          2,
+          0,
+          2,
+          4,
+          null
+        ]
+      },
+      {
+        "weapon": "PPC",
+        "count": 1,
+        "label": "PPC",
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          2,
+          0,
+          2,
+          4,
+          null
+        ]
+      }
+    ],
+    "bins": [],
+    "mul_id": "2827"
+  },
+  {
+    "name": "Scorpion Light Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-Scorpion-Standard.svg",
+    "mass": 25,
+    "year": 2807,
+    "movement": "Tracked",
+    "ground": 4,
+    "sprint": 6,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Brawler",
+    "armor": [
+      4,
+      3,
+      3,
+      3,
+      4
+    ],
+    "structure": 1,
+    "ev": 306,
+    "cv": 327083,
+    "upkeep": 250,
+    "groups": [
+      {
+        "weapon": "Machine Gun",
+        "count": 1,
+        "label": "Machine Gun [AI]",
+        "damage": "1",
+        "base": 1,
+        "max": 1,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "Autocannon/5",
+        "count": 1,
+        "label": "AC/5",
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          2,
+          0,
+          2,
+          4,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "Machine Gun",
+        "tics": [
+          1
+        ],
+        "capacity": 100
+      },
+      {
+        "weapon": "Autocannon/5",
+        "tics": [
+          2
+        ],
+        "capacity": 20
+      }
+    ],
+    "mul_id": "2847"
+  },
+  {
+    "name": "SRM Carrier",
+    "variant": "Standard",
+    "file": "IRONBOUND-SRM-Carrier-Standard.svg",
+    "mass": 60,
+    "year": 2470,
+    "movement": "Tracked",
+    "ground": 3,
+    "sprint": 5,
+    "tmm": 1,
+    "initiative": 1,
+    "role": "Brawler",
+    "armor": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "structure": 2,
+    "ev": 816,
+    "cv": 1932800,
+    "upkeep": 600,
+    "groups": [
+      {
+        "weapon": "SRM 6",
+        "count": 3,
+        "label": "3\u00d7 SRM-6",
+        "damage": "3+M6 (12)",
+        "base": 3,
+        "max": 12,
+        "mdice": 6,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "SRM 6",
+        "count": 3,
+        "label": "3\u00d7 SRM-6",
+        "damage": "3+M6 (12)",
+        "base": 3,
+        "max": 12,
+        "mdice": 6,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "SRM 6",
+        "count": 2,
+        "label": "2\u00d7 SRM-6",
+        "damage": "2+M4 (8)",
+        "base": 2,
+        "max": 8,
+        "mdice": 4,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "SRM 6",
+        "count": 2,
+        "label": "2\u00d7 SRM-6",
+        "damage": "2+M4 (8)",
+        "base": 2,
+        "max": 8,
+        "mdice": 4,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "capacity": 15
+      },
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "capacity": 15
+      },
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "capacity": 15
+      },
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "capacity": 15
+      }
+    ],
+    "mul_id": "3030"
+  },
+  {
+    "name": "Striker Light Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-Striker-Standard.svg",
+    "mass": 35,
+    "year": 3006,
+    "movement": "Wheeled",
+    "ground": 5,
+    "sprint": 8,
+    "tmm": 2,
+    "initiative": 2,
+    "role": "Fire Support",
+    "armor": [
+      6,
+      5,
+      5,
+      5,
+      6
+    ],
+    "structure": 1,
+    "ev": 564,
+    "cv": 563315,
+    "upkeep": 350,
+    "groups": [
+      {
+        "weapon": "LRM 10",
+        "count": 1,
+        "label": "LRM-10 [IF]",
+        "damage": "1+M1 (4)",
+        "base": 1,
+        "max": 4,
+        "mdice": 1,
+        "location": "Turret",
+        "ranges": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "weapon": "SRM 6",
+        "count": 1,
+        "label": "SRM-6",
+        "damage": "1+M2 (4)",
+        "base": 1,
+        "max": 4,
+        "mdice": 2,
+        "location": "Turret",
+        "ranges": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          2
+        ],
+        "capacity": 15
+      },
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          2
+        ],
+        "capacity": 15
+      },
+      {
+        "weapon": "LRM 10",
+        "tics": [
+          1
+        ],
+        "capacity": 12
+      }
+    ],
+    "mul_id": "3105"
+  },
+  {
+    "name": "Vedette Medium Tank",
+    "variant": "Standard",
+    "file": "IRONBOUND-Vedette-Standard.svg",
+    "mass": 50,
+    "year": 2943,
+    "movement": "Tracked",
+    "ground": 5,
+    "sprint": 8,
+    "tmm": 2,
+    "initiative": 2,
+    "role": "Brawler",
+    "armor": [
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "structure": 2,
+    "ev": 475,
+    "cv": 725750,
+    "upkeep": 500,
+    "groups": [
+      {
+        "weapon": "Machine Gun",
+        "count": 1,
+        "label": "Machine Gun [AI]",
+        "damage": "1",
+        "base": 1,
+        "max": 1,
+        "mdice": 0,
+        "location": "Front",
+        "ranges": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "weapon": "Autocannon/5",
+        "count": 1,
+        "label": "AC/5",
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "mdice": 0,
+        "location": "Turret",
+        "ranges": [
+          2,
+          0,
+          2,
+          4,
+          null
+        ]
+      }
+    ],
+    "bins": [
+      {
+        "weapon": "Machine Gun",
+        "tics": [
+          1
+        ],
+        "capacity": 200
+      },
+      {
+        "weapon": "Autocannon/5",
+        "tics": [
+          2
+        ],
+        "capacity": 20
+      }
+    ],
+    "mul_id": "3395"
+  }
+]
